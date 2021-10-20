@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  font-family: "Fantasy Copperplate";
 }
 
 a {
@@ -16,16 +16,17 @@ a {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1300px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image: url(https://img.freepik.com/free-vector/blue-cyber-future-technology-concept-background_42077-488.jpg?size=626&ext=jpg);
   background-size: cover;
-  color: white;
+  color: rgb(255, 217, 0);
   text-align: center;
 }
 
@@ -36,31 +37,28 @@ a {
   margin-bottom: 10px;
 }
 
+.top-wrapper h2 {
+  opacity: 0.8;
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
 .top-wrapper p {
-  opacity: 0.7;
+  opacity: 1;
   margin-bottom: 3px;
+  font-weight: bold;
+  color:rgb(255, 123, 0)
 }
 
 .btn-wrapper {
   text-align: center;
   margin: 20px 0;
+  
 }
 
 .btn-wrapper p {
   margin: 10px 0;
-}
-
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
 }
 
 .btn {
@@ -76,10 +74,6 @@ a {
   opacity: 1;
 }
 
-.fa {
-  margin-right: 5px;
-}
-
 header {
   height: 65px;
   width: 100%;
@@ -91,7 +85,7 @@ header {
 
 .logo {
   width: 124px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .header-left {
@@ -116,11 +110,13 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.menu-icon{
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
   color: white;
   float: right;
   font-size: 25px;
   padding: 21px 0;
+  /* Gantikan property display ke none */
   display: none;
 }
 
@@ -135,10 +131,11 @@ header {
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
-  color: #5f5d60;
+  color: #3e08ff;
 }
 
 .heading h2 {
+  font-family:'Helvetica Neue';
   font-weight: normal;
 }
 
@@ -163,7 +160,7 @@ header {
   display: inline-block;
   margin-top: 15px;
   font-size: 15px;
-  color: #b3aeb5;
+  color: #d4cfd2;
 }
 
 .heading h3 {
@@ -171,16 +168,16 @@ header {
 }
 
 .message-wrapper {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid rgb(255, 251, 0);
   padding-bottom: 80px;
   text-align: center;
 }
 
 .message {
   padding: 15px 40px;
-  background-color: #5dca88;
+  background-color: #d400ff;
   cursor: pointer;
-  box-shadow: 0 7px #1a7940;
+  box-shadow: 0 7px #791a74;
 }
 
 .message:active {
@@ -190,7 +187,9 @@ header {
 }
 
 footer img {
-  width: 125px;
+  float: right;
+  width: 150px;
+  margin-bottom: 30px;
 }
 
 footer p {
@@ -199,6 +198,6 @@ footer p {
 }
 
 footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
